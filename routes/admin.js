@@ -8,8 +8,7 @@ app.get('/', (req,res)=>{
         {name:'ejs',url:'https://ejs.co'},
         {name:'expressjs',url:'https://expressjs.com'},
     ];
-    var isAdmin=true;
-    //var isAdmin=false;
+    var isAdmin=false;
     res.render("pages/admin", {title:'admin', items, isAdmin});
 })
 app.get('/altas', (req,res)=>{

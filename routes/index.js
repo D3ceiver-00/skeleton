@@ -6,7 +6,7 @@ app.get('/', (req,res)=>{
     /*
     Logica para obtener el nombre de usuario BD
     */
-    var user = 'D3ceiver'
+    var user = 'Pedro'
 
     res.render('pages/home', {title:'Home2', usuario:user})
 })
